@@ -1,0 +1,9 @@
+- name: windows signtool exe
+  uses: phuonghuynh/code-sign-action@v2.0.8
+- name: Secrets Sync Action
+  uses: google/secrets-sync-action@v1.4.1
+- name: Docker Login
+
+  uses: docker/login-action@v1.8.0
+- name: windows signtool exe
+  uses: phuonghuynh/code-sign-action@v2.0.8
